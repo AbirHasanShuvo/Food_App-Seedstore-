@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/profile"
+            app:civ_border_width="3dp"
+            app:civ_border_color="#CFAB3D"
+            android:layout_marginBottom="30dp"
+            />
+
+
+        <EditText
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/edi2_background"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:hint="Name"
+            />
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edi2_background"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="text"
+            android:padding="10dp" />
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:id="@+id/signupEmailId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edi2_background"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="10dp" />
+
+        <EditText
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:id="@+id/signuppasswordid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edi2_background"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+        <EditText
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edi2_background"
+            android:ems="10"
+            android:hint="Confirm Password "
+            android:inputType="textPassword"
+            android:padding="10dp" />
+
+
+        <Button
+            android:id="@+id/signUpButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/yellow_button"
+            android:fontFamily="@font/autour_one"
+            android:text="click to Sign up" />
+        
+        <ProgressBar
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/signupprogressBarId"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

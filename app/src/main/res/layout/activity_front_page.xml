@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrontPage"
+    android:background="@drawable/backround_"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="10dp"
+    >
+
+    <ImageView
+        android:layout_marginTop="60dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/buggggg"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/almendra_display"
+        android:text="Happy Fooding"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold|italic" />
+
+
+
+    <Button
+        android:layout_marginLeft="15dp"
+        android:padding="12dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/frontloginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/yellow_button"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Login"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="15dp"
+        android:padding="12dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/frontregisterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/yellow_button"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Register"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="21sp"
+        />
+
+
+
+
+</LinearLayout>

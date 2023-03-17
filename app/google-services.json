@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1056216843313",
+    "project_id": "seedstore-dd786",
+    "storage_bucket": "seedstore-dd786.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056216843313:android:eee82d7e990b844a95c110",
+        "android_client_info": {
+          "package_name": "com.example.seedstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056216843313-4uc07b3anh80ctur154g9rdn8qb8jp6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC19WyP7tuJ63ziX15SRk9ix968EM-fYts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056216843313-4uc07b3anh80ctur154g9rdn8qb8jp6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
